@@ -228,11 +228,10 @@
       margin-top: 40px;
     }
     &-button{
-      @media screen and (min-width: 1200px){
-        &-prev,
-        &-next{
-          top: 50% !important;
-        }
+      &-prev,
+      &-next{
+        top: unset;
+        margin-top: 0;
       }
       &-prev{
         left: 0;
