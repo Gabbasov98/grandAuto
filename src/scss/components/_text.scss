@@ -1,0 +1,99 @@
+.display1,
+.display2,
+.display3,
+.display4{
+  font-weight: 700;
+  line-height: 117%;
+  font-family: $font2;
+}
+
+.display1{
+  font-size: 60px;
+}
+
+.display2{
+  font-size: 50px;
+}
+
+.display3{
+  font-size: 27px;
+}
+
+.display4{
+  font-size: 27px;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.subtitle{
+  font-size: 20px;
+  line-height: 160%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.body-text{
+  font-size: 16px;
+  line-height: 150%;
+  p{
+    font-size: inherit;
+    line-height: inherit;
+    &:not(:last-child){
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .display1{
+    font-size: 55px;
+  }
+
+  .display2{
+    font-size: 45px;
+  }
+
+  .display3{
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .display1{
+    font-size: 45px;
+  }
+
+  .display2{
+    font-size: 40px;
+  }
+
+  .display3{
+    font-size: 20px;
+  }
+
+
+  .subtitle{
+    font-size: 14px;
+    line-height: 157%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .display2{
+    font-size: 25px;
+  }
+
+  .display3{
+    font-size: 14px;
+  }
+
+  .display4{
+    font-size: 16px;
+  }
+
+  .body-text{
+    font-size: 14px;
+    line-height: 157%;
+  }
+}

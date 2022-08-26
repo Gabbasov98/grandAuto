@@ -1,0 +1,5 @@
+@import '../_mixins';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@include font-face('EuropeExt', 'europeextnormal', 400);
+@include font-face('EuropeExt', 'europeextbold', 700);
+@include font-face('EuropeExt', 'europeext_bold_italic', 700, italic);
